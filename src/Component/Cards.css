@@ -1,0 +1,53 @@
+.Card-container {
+	background-color: #222;
+	border: 1px solid #333;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+
+	/* Add a drop shadow to the container */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+	/* Add a gradient to the background color */
+	background: linear-gradient(to right, #222, #333);
+
+	/* Add text to the container */
+	text-align: center;
+	color: #fff;
+}
+
+.robo-card {
+	/* Add a dark background color to the card */
+	background-color: #222;
+
+	/* Add a drop shadow to the card */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+	/* Add a border to the card */
+	border: 1px solid #333;
+
+	/* Add a dark font color to the card */
+	color: #fff;
+}
+
+.robo-card img {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.robo-card img:hover {
+	border: 2px solid #36d7b7;
+}
+
+@media (max-width: 768px) {
+	.robo-card {
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+
+	.robo-card img {
+		width: 300px;
+		height: 300px;
+	}
+}

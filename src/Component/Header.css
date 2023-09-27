@@ -1,0 +1,42 @@
+.header-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
+	border: 1px solid #333;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+
+	/* Add a drop shadow to the container */
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+	/* Add a gradient to the background color */
+	background: linear-gradient(to right, #222, #333);
+}
+
+.search-bar {
+	display: flex;
+	align-items: center;
+}
+
+.input-card {
+	width: 400px;
+	margin-right: 10px;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.search-button {
+	background-color: #36d7b7;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.search-button:hover {
+	background-color: lightblue;
+}
