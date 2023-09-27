@@ -1,6 +1,6 @@
 .Card-container {
 	background-color: #222;
-	border: 1px solid #333;
+	border: 2px solid gold;
 	border-radius: 10px;
 	padding: 20px;
 	margin-top: 20px;
@@ -24,10 +24,11 @@
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
 	/* Add a border to the card */
-	border: 1px solid #333;
+	border: 2px solid gold;
 
 	/* Add a dark font color to the card */
 	color: #fff;
+	border-radius: 30px;
 }
 
 .robo-card img {
@@ -37,7 +38,8 @@
 }
 
 .robo-card img:hover {
-	border: 2px solid #36d7b7;
+	border: 2px solid gold;
+	border-radius: 30px;
 }
 
 @media (max-width: 768px) {
